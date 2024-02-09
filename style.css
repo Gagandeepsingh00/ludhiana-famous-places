@@ -1,7 +1,9 @@
 .center {
     display: table;
+    display: flex;
     width: 100%;
     margin-top: 40px;
+    float: right;
   }
   
   #social-test {
@@ -9,7 +11,7 @@
     vertical-align: middle;
     text-align: center;
     font-size: 30px;
-   
+    
     .social {
       padding-left: 0px;
     }
@@ -41,6 +43,8 @@
     opacity: 1;
   }
   
+
+
 
 /* Center website */
 .main {
