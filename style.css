@@ -206,3 +206,43 @@ h1 {
   background-color: #666;
   color: white;
 }
+
+
+/*-----Styling About-----*/
+
+body.about{
+  background-color: #202e2d;
+}
+ main.about{
+  background-color: #202e2d;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+ }
+
+ .about-carousel {
+  border: 0px;
+ border-radius: 10px;
+ width: 500px;
+ 
+ }
+
+ .about-carousel img{
+  border: 0px;
+ border-radius: 10px;
+ width: 500px;
+height: 300px;
+ }
+ 
+ .about-carousel.text-image{
+  font-size: 20px;
+ color: #202e2d;
+ }
+
+ 
+ .map iframe{
+  border: 0px;
+  border-radius: 10px;
+ 
+ }
+
