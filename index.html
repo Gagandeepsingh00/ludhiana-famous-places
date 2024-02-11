@@ -58,22 +58,50 @@
         </div>
       
       
-      <!--<div class="icons">
-        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-    </div>
-
-
-<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> -->
+      
 </nav>
-<div id="slideshow">
+
+
+<main>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/hardy's-world.jpg" alt="Hardy's World" class="d-block" style="width:100%">
+        <div class="text-image">Hardy's World</div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/lodhi-fort.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <div class="text-image">Lodhi Fort</div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/sunview-enclave.avif" alt="New York" class="d-block" style="width:100%">
+        <div class="text-image">Sunview Enclave</div>
+      </div>
+    </div>
+    
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+ 
+ <!--<div id="slideshow">
   <div class="slide-wrapper">
        
-  <!-- Define each of the slides
-   and write the content -->
+  Define each of the slides
+   and write the content
     
       <div class="slide">
           <h1 class="slide-number">
@@ -96,16 +124,25 @@
           </h1> 
       </div>
   </div>
+</div>-->
+
+
+
+
+
+ <div class="row">
+<div class="intro col-6">
+  <h2>About</h2>
+  Ludhiana is a major industrial city in the northern Indian state of Punjab. The Museum of Rural Life at Punjab Agricultural University features musical instruments, ceramics, and traditional Punjabi attire. The lush Nehru Rose Garden is nearby and has over a thousand different species of roses in addition to decorative fountains. Punjabi military history is preserved in the Maharaja Ranjit Singh War Museum in the north.
+
 </div>
 
+<div class="news col-6">
 
-
-<!-- MAIN (Center website) -->
-<div class="main">
-
-  
+</div>
+</div>
   <hr>
-  
+  <div class="main"></div>
   <h2>Categories</h2>
   
   <!-- <div id="myBtnContainer">
@@ -115,38 +152,46 @@
     <button class="btn" onclick="filterSelection('people')"> Food Points</button>
   </div>
    -->
-  <!-- Portfolio Gallery Grid -->
+  
   <div class="row">
     <div class="column nature">
       <div class="content">
-        <img src="/images/ClockTower.jpg" alt="Mountains" style="width:100%">
+        <a href="#">
+          <img src="/images/ClockTower.jpg" alt="Mountains" style="width:100%">
+        </a>
         <h4>Famous Places</h4>
         <p>The best icon of Ludhiana city.... </p>
-        <a href="3">read more </a>
+        <a href="#">read more </a>
       </div>
     </div>
     <div class="column nature">
       <div class="content">
-      <img src="/images/tim.jpg" alt="Lights" style="width:100%" height="400px">
+      <a href="Food Points/index3.html">
+        <img src="/images/tim.jpg" alt="Lights" style="width:100%">
+      </a>
         <h4>Food Points</h4>
         <p>Are you ready to go on a delectable journey</p>
+        <a href="#">read more </a>
       </div>
     </div>
     <div class="column nature">
       <div class="content">
-      <img src="/images/alamgir-sahib.avif" alt="Nature" style="width:100%">
+      <a href="Historic Places/index1.html">
+        <img src="/images/alamgir-sahib.avif" alt="Nature" style="width:100%">
+      </a>
         <h4>Historical Places</h4>
-        <p>Lorem ipsum dolor..</p>
+        <p>..</p>
+        <a href="#">read more </a>
       </div>
     </div>
     
     
-  <!-- END GRID -->
+ 
   </div>
-  
+</div>
   <!-- END MAIN -->
-  </div>
-  <script src="script.js"></script>
   
+  <script src="script.js"></script>
+</main>
 </body>
 </html>

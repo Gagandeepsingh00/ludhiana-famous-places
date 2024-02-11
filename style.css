@@ -1,3 +1,15 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+  font-family:'Times New Roman', Times, serif;
+  background-color: #202e2d;
+}
+nav ul li{
+  font-size: 20px;
+}
+
 .center {
     display: table;
     display: flex;
@@ -35,6 +47,8 @@
     }
   }
   
+
+  
   .social:hover > li {
     opacity: 0.5;
   }
@@ -42,35 +56,31 @@
   .social:hover > li:hover {
     opacity: 1;
   }
-  #slideshow {
+ /* #slideshow {
     overflow: hidden;
     height: 510px;
     width: 100%;
     margin: 0 auto;
   }
    
-  /* Style each of the sides 
-  with a fixed width and height */
+  
   .slide {
     float: left;
     height: 510px;
     width: 728px;
   }
    
-  /* Add animation to the slides */
+  
   .slide-wrapper {
      
-  /* Calculate the total width on the
-    basis of number of slides */
+  
     width: calc(728px * 4);
    
-  /* Specify the animation with the
-    duration and speed */
+ 
     animation: slide 10s ease infinite;
   }
    
-  /* Set the background color
-  of each of the slides */
+  
   .slide:nth-child(1) {
     background: green;
   }
@@ -87,12 +97,10 @@
     background: yellow;
   }
    
-  /* Define the animation 
-  for the slideshow */
+ 
   @keyframes slide {
      
-  /* Calculate the margin-left for 
-    each of the slides */
+  
     20% {
       margin-left: 0px;
     }
@@ -108,11 +116,28 @@
     80% {
       margin-left: calc(-728px * 3);
     }
+  }*/
+
+  .carousel-item{
+    position: relative;
+    border: 0px solid ;
   }
 
+  
+.text-image{
+  position: absolute;
+  top: 8px;
+  font-size: 30px;
+}
 
+.intro{
+ font-family:'Times New Roman', Times, serif;
+ font-size: 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: #202e2d;
+}
 
-/* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
@@ -127,38 +152,38 @@ h1 {
   margin: 10px -16px;
 }
 
-/* Add padding BETWEEN each column */
+
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create three equal columns that floats next to each other */
+
 .column {
   float: left;
   width: 33.33%;
-  display: none; /* Hide all elements by default */
+  display: none; 
 }
 
-/* Clear floats after rows */ 
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
+
 .content {
   background-color: white;
   padding: 10px;
 }
 
-/* The "show" class is added to the filtered elements */
+
 .show {
   display: block;
 }
 
-/* Style the buttons */
+
 .btn {
   border: none;
   outline: none;
