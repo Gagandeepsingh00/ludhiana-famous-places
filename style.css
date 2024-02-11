@@ -133,6 +133,7 @@ nav ul li{
   position: absolute;
   top: 8px;
   font-size: 30px;
+  background-color: rgb(255, 253, 253,0.3) ;
 }
 
 .intro{
