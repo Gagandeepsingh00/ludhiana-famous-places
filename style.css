@@ -117,12 +117,17 @@ nav ul li{
       margin-left: calc(-728px * 3);
     }
   }*/
-
+.carousel {
+  box-sizing: border-box;
+  
+}
   .carousel-item{
     position: relative;
     border: 0px solid ;
   }
-
+  .carousel-item img{
+    width: 100%;
+  }
   
 .text-image{
   position: absolute;
