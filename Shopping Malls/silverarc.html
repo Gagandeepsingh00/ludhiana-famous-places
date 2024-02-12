@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 33%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>SHOPPING</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>MBD Mall is the most popular mall in Ludhiana. It houses a wide range of national and international brands, like Tommy Hilfiger, The Plus Size Store, Forest Essential, FCUK, Max, Forever 21, Global Desi and many more. It is a spacious area with an entertainment zone for kids, called Fun City, which includes games and rides. It is home to Cinepolis Cinemas as well. This mall has a Radisson Blu Hotel on its premises.</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+<div class="MostLovedPlaces__Wrapper-sc-14gdo83-0 kAJtwo"><div class="MostLovedPlaceCard__Container-sc-1j0boqv-0 kfTnnH"><div class="MostLovedPlaceCard__ImgCont-sc-1j0boqv-6 doizHn"><img src="https://hblimg.mmtcdn.com/content/hubble/img/ludhiana/mmt/activities/t_ufs/m_activities_ludhiana_maharaja_ranjit_singh_war_museum_l_480_640.jpg" alt="Maharaja Ranjit Singh War Museum"></div><div class="MostLovedPlaceCard__DetailsCont-sc-1j0boqv-5 jNdZYo"><div class="MostLovedPlaceCard__Details-sc-1j0boqv-4 cQulNR"><a href="/tripideas/attractions/maharaja-ranjit-singh-war-museum"><h3 class="MostLovedPlaceCard__Heading-sc-1j0boqv-1 cGuoWK">Maharaja Ranjit Singh War Museum</h3></a><h5 class="MostLovedPlaceCard__Address-sc-1j0boqv-2 fXSWQO">Soak in Patriotic Fervour</h5><div class="MostLovedPlaceCard__Desc-sc-1j0boqv-3 kTFFnM">Dedicated to the brave soldiers, the museum houses 12 galleries showcasing memorabilia, uniforms and medals belonging to the soldiers who lost their lives in the wars before pre-Independence era.</div></div><div class="MostLovedPlaceCard__PriceDtl-sc-1j0boqv-7 jchXwi"><div><div class="MostLovedPlaceCard__PriceWrap-sc-1j0boqv-12 gYzbvP"><p><span class="MostLovedPlaceCard__NewPrice-sc-1j0boqv-10 kgmboV">2-3 hours</span></p><p><span class="MostLovedPlaceCard__Approx-sc-1j0boqv-11 bTYWdh">Suggested Time</span></p></div></div><div class="MostLovedPlaceCard__BookNowCont-sc-1j0boqv-13 hMCFtO"><a class="ExploreBtn__Btn-zyjhlg-0 OsvhW">EXPLORE</a></div></div></div></div><div class="MostLovedPlaceCard__Container-sc-1j0boqv-0 kfTnnH"><div class="MostLovedPlaceCard__ImgCont-sc-1j0boqv-6 doizHn"><img src="https://hblimg.mmtcdn.com/content/hubble/img/ludhiana/mmt/activities/t_ufs/m_activities_ludhiana_punjab_agriculture_university_museum_l_467_622.jpg" alt="Punjab Agriculture University Museum"></div><div class="MostLovedPlaceCard__DetailsCont-sc-1j0boqv-5 jNdZYo"><div class="MostLovedPlaceCard__Details-sc-1j0boqv-4 cQulNR"><a href="/tripideas/attractions/punjab-agriculture-university-museum"><h3 class="MostLovedPlaceCard__Heading-sc-1j0boqv-1 cGuoWK">Punjab Agriculture University Museum</h3></a><h5 class="MostLovedPlaceCard__Address-sc-1j0boqv-2 fXSWQO">A Unique Cultural Hub</h5><div class="MostLovedPlaceCard__Desc-sc-1j0boqv-3 kTFFnM">Housing a rare collection of artefacts, household items, musical instruments, coins, handicrafts, jewellery and much more, dating back to the Harappa era, the museum gives an insight into the rural culture of Punjab.</div></div><div class="MostLovedPlaceCard__PriceDtl-sc-1j0boqv-7 jchXwi"><div><div class="MostLovedPlaceCard__PriceWrap-sc-1j0boqv-12 gYzbvP"><p><span class="MostLovedPlaceCard__NewPrice-sc-1j0boqv-10 kgmboV">2-3 hours</span></p><p><span class="MostLovedPlaceCard__Approx-sc-1j0boqv-11 bTYWdh">Suggested Time</span></p></div></div><div class="MostLovedPlaceCard__BookNowCont-sc-1j0boqv-13 hMCFtO"><a class="ExploreBtn__Btn-zyjhlg-0 OsvhW">EXPLORE</a></div></div></div></div></div>
+  
+</body>
+</html>
