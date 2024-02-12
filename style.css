@@ -6,6 +6,7 @@ body{
   font-family:'Times New Roman', Times, serif;
   background-color: #202e2d;
 }
+
 nav ul li{
   font-size: 20px;
 }
@@ -145,6 +146,31 @@ nav ul li{
   color: #202e2d;
  text-align: justify;
 }
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color:  #202e2d;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #202e2d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
  .news{
   background-color: rgb(151, 156, 156); 
  }
@@ -195,14 +221,11 @@ nav ul li{
  
 
 .main {
+  
   max-width: 1000px;
   margin: auto;
 }
 
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
 
 .row {
   margin: 10px -16px;
