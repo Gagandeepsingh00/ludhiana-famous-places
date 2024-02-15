@@ -6,7 +6,14 @@ body{
   font-family:'Times New Roman', Times, serif;
   background-color: #202e2d;
 }
-
+p,
+a{
+  font-size: 20px;
+}
+nav{
+  margin: 0;
+  padding: 0;
+}
 nav ul li{
   font-size: 20px;
 }
@@ -43,6 +50,9 @@ nav ul li{
       margin-left: 10px;
       margin-bottom: 20px;
       transition: ease .3s;
+      a{
+        color: rgba(167, 146, 129, 0.6);
+      }
       &:hover {
         color: rgba(167, 146, 129, 1);
         border: 1px solid rgba(167, 146, 129, 1);
@@ -223,7 +233,9 @@ nav ul li{
              color-stop(.5, transparent), to(transparent));
 }
 
- 
+ .card1{
+  box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 
 /*footer*/
 footer{
