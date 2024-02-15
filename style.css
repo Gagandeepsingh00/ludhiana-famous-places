@@ -233,6 +233,15 @@ nav ul li{
              color-stop(.5, transparent), to(transparent));
 }
 
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin: 25px;
+  img {width: 100%}
+}
+
  .card1{
   box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
