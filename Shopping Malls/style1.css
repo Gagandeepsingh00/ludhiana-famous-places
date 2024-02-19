@@ -87,7 +87,7 @@ font-size: 13px;
 
         }
         .card1{
-            background-image: url(s1.avif);
+            background-image: url(../images/mbd.jpg);
         }
         .card2{
             background-image: url(pavilion.jpg);
@@ -96,7 +96,7 @@ font-size: 13px;
             background-image: url(s1.avif);
         }
         .card4{
-            background-image: url(s1.avif);
+            background-image: url(../images/wave.jpg);
         }
         .card:hover{
             transform: translateY(-10px);
